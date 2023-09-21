@@ -1,4 +1,9 @@
-.header {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header1 {
     background-color: #1F2937;
     color:rgb(211, 230, 247);
     display: flex;
@@ -8,8 +13,8 @@
 }
 
 h1 {
-    padding-left: 50px;
     font-size: 24px;
+    margin-left: 150px;
 }
 
 .links {
@@ -27,10 +32,18 @@ a {
 .hero {
     background-color: #1F2937;
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    gap: 30px;
     padding: 50px;
 }
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 100px;
+}
+
 
 .main_text {
     font-size: 48px;
@@ -52,4 +65,108 @@ a {
     border-radius: 8px;
     width: 120px;
     padding: 5px 10px 5px 10px;
+}
+
+img {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 200px;
+}
+
+#first {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.artworks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    color:#505458;
+}
+
+.art {
+    display: inline-block;
+    gap: 8px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px;
+}
+.quote .name {
+    text-align: end;
+    margin-right: 150px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.callToAction {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 100px 150px 100px 150px;
+    border-radius: 10px;
+}
+
+.callToAction .left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px; 
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 50px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
 }
